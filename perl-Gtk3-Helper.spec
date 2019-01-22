@@ -25,10 +25,10 @@ This module provides an helper for Gtk3.
 perl Makefile.PL INSTALLDIRS=vendor
 
 %build
-%make OPTIMIZE="%{optflags}"
+%make_build OPTIMIZE="%{optflags}"
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc COPYING Changes META.json META.yml README
