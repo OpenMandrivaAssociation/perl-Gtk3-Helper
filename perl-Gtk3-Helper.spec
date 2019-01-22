@@ -31,6 +31,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 %makeinstall_std
 
 %files
-%doc COPYING Changes META.json META.yml MYMETA.yml README
+%doc COPYING Changes META.json META.yml README
 %{perl_vendorlib}/Gtk3/Helper*
 %_mandir/*/*
