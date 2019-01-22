@@ -1,15 +1,15 @@
 %define upstream_name	 Gtk3-Helper
-%define	upstream_version 0.02
+%define	upstream_version 0.06
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    2
+Release:    1
 
 Summary:    Perl helper module for Gtk3
 License:    LGPLv2+ or Artistic
 Group:      Development/GNOME and GTK+
-Url:        http://gtk2-perl.sf.net/
-Source0:    %{upstream_name}-%{upstream_version}.tar.gz
+Url:        https://metacpan.org/pod/Gtk3::Helper
+Source0:    https://cpan.metacpan.org/authors/id/T/TV/TVIGNAUD/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildArch:  noarch
 
