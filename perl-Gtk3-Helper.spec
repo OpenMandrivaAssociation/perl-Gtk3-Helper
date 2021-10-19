@@ -21,7 +21,7 @@ BuildRequires: perl-ExtUtils-Depends >= 0.300
 This module provides an helper for Gtk3.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%autosetup -p1 -n %{upstream_name}-%{upstream_version}
 perl Makefile.PL INSTALLDIRS=vendor
 
 %build
