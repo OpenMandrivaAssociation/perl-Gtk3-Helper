@@ -13,6 +13,7 @@ Source0:    https://cpan.metacpan.org/authors/id/T/TV/TVIGNAUD/%{upstream_name}-
 
 BuildArch:  noarch
 
+BuildRequires:	make
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(Gtk3)
 BuildRequires: perl-devel
