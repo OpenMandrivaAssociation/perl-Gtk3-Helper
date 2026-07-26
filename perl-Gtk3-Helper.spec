@@ -1,15 +1,13 @@
 %define upstream_name	 Gtk3-Helper
-%define	upstream_version 0.06
-
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    2
+Version:    0.06
+Release:    3
 
 Summary:    Perl helper module for Gtk3
 License:    LGPLv2+ or Artistic
 Group:      Development/GNOME and GTK+
 Url:        https://metacpan.org/pod/Gtk3::Helper
-Source0:    https://cpan.metacpan.org/authors/id/T/TV/TVIGNAUD/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    https://cpan.metacpan.org/authors/id/T/TV/TVIGNAUD/%{upstream_name}-%{version}.tar.gz
 
 BuildArch:  noarch
 
@@ -22,7 +20,7 @@ BuildRequires: perl-ExtUtils-Depends >= 0.300
 This module provides an helper for Gtk3.
 
 %prep
-%autosetup -p1 -n %{upstream_name}-%{upstream_version}
+%autosetup -p1 -n %{upstream_name}-%{version}
 perl Makefile.PL INSTALLDIRS=vendor
 
 %build
